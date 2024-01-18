@@ -1,0 +1,147 @@
+.macBanner {
+    background-image: url("../images/mac4.jpeg");
+    background-size: cover;
+    background-position: 0%;
+    padding-top: 75px;
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:1000px) {
+    .macBanner {
+        background-position: 50%;
+    }
+}
+
+.titleBanner {
+    font-size: xx-large;
+    font-weight: 900;
+    background: rgba(6, 6, 6, 0.3);
+    border-top: 5px solid black;
+    color: black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.aboutBox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textMac {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.imageMac {
+    max-width: 350px;
+    padding: 20px;
+}
+
+.aboutTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.inventory {
+    background-image: url("../images/knotsBackground.jpg");
+    background-size: cover;
+    background-position: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.directions {
+    background: rgba(6, 6, 6, 0.4);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.smallerDirections {
+    font-size: medium;
+}
+
+.largerDirections {
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.dogPic {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 10px
+}
+
+
+.invPic {
+    padding: 30px
+}
+
+.invGroup {
+    margin: 20px;
+}
+
+.endSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgba(6, 6, 6, 0.4);
+    margin-top: 20px;
+    text-align: center;
+    border-top: 5px solid black;
+}
+
+.endText {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.endTextQ {
+    font-size: larger;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.endTextA {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.textAndButton {
+    max-width: 50%;
+}
+
+.endImage {
+    max-width: 50%;
+}
+
+.endButton {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:500px) {
+    .endImage {
+        background-position: 50%;
+    }
+}

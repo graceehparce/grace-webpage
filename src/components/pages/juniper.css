@@ -1,0 +1,131 @@
+.juniperMain {
+    max-width: fit-content;
+}
+
+.juniperHome2 {
+    background-image: url("../images/juniper10.jpeg");
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.juniperTitle2 {
+    color: white;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.aboutJunBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:  rgba(6, 6, 6, 0.3);
+    margin: 2%
+}
+
+.lastJunBox {
+    padding: 20px;
+    background:  rgba(6, 6, 6, 0.3);;
+    margin-top: 10px;
+    border-top: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.aboutJun {
+    max-width: 45%;
+    padding: 5%
+}
+
+.aboutJunPic {
+    max-width: 45%;
+}
+
+@media only screen and (max-width:825px) {
+    .teachBox {
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    .aboutJun {
+      max-width: 90%;
+      padding: 5%
+
+    }
+  
+    .aboutJunPic {
+      max-width: 100%;
+    }
+
+    .aboutJunBox {
+        margin: 3%
+    }
+  }
+  
+
+
+
+.videoBackground {
+    background-image: url("../images/juniperr.jpeg");
+    background-size: cover;
+    background-position: 60%;
+    padding-top: 30px;
+    padding-bottom: 280px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailButton {
+    border-radius: 20;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+.textJunBox {
+    margin: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.bottomJunBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bottomJunBox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

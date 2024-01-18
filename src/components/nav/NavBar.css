@@ -1,0 +1,132 @@
+.navbar {
+    height: fit-content;
+    background-color: grey;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 100%;
+    background-image:
+      linear-gradient(
+        grey, white 100%
+      );
+}
+
+
+
+.navbar__item {
+    flex-basis: 20%;
+    list-style-type: none;
+}
+
+.logoTitleLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.navTitle {
+    color: black;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navDropDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navRightSection {
+    background-color: #ebcec3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
+.messageButton {
+    margin-right: 10px;
+}
+
+.modalTitle {
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+}
+
+.name {
+    font-size: xx-large;
+}
+
+.cellistTitle {
+    margin-left: 10px;
+}
+
+.titleLink {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
+}
+
+.whiteLine {
+    height: 3px;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.titleSection {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.withIcon {
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    align-items: center;
+}
+
+.phone {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.email {
+    margin-left: 10px;
+}
+
+.navDropDown {
+    margin-right: 10px;
+}
+
+.withIcon a {
+    color: black !important;
+    padding-left: 10px;
+}
+
+.mantine-1pvv4p5 {
+    background-color: transparent !important;
+    color: black !important; 
+}

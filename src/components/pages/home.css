@@ -1,0 +1,208 @@
+
+
+.homeBackground {
+    background-image: url("../images/noBackground2.JPG");
+    background-size: cover;
+    background-position: 0%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 20px solid black;
+}
+
+@media only screen and (max-width:1000px) {
+    .homeBackground {
+        background-position: 80%;
+    }
+}
+
+.nameTitle {
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 400px;
+}
+
+.aboutImage {
+    background-image: url("../images/about.jpeg");
+    max-height: fit-content;
+}
+
+.aboutSection0 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.aboutText {
+    font-size: medium;
+    max-width: 42%;
+    padding: 4%;
+    text-align: center;
+
+}
+
+.sectionTitle {
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+
+.imageBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+.teachingSection {
+    background-image: url("../images/teaching.jpg");
+    background-size: cover;
+    background-position: 0%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-top: 20px solid black;
+}
+
+@media only screen and (max-width:1000px) {
+    .teachingSection {
+        background-position: 55%;
+    }
+}
+
+.teachingQuote1 {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background: rgba(6, 6, 6, 0.1);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.teachingQuote2 {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background: rgba(6, 6, 6, 0.3);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.teachingQuote3 {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background: rgba(6, 6, 6, 0.1);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.teachingQuote4 {
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background: rgba(6, 6, 6, 0.3);
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.quotes {
+    padding-top: 20px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.aboutCard {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(6, 6, 6, 0.3);
+}
+
+.images {
+    width: fit-content;
+}
+
+.scrollPics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.juniperSection {
+    max-width: fit-content;
+}
+
+.juniperTitle {
+    font-size: xx-large;
+    font-weight: 900;
+    background: rgba(6, 6, 6, 0.3);
+    padding: 10px;
+    text-align: center;
+    border-top: 10px solid black;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.juniperTitleLink {
+    text-decoration: none;
+}
+
+.macBox {
+    background-image: url("../images/mac1.jpg");
+    background-size: cover;
+    background-position: 0%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-top: 20px solid black;
+}
+
+.logo {
+    padding: 30px;
+}
+
+.macInnerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomSection {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instaIcon {
+    color: white;
+}
