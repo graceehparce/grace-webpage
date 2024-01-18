@@ -55,6 +55,12 @@ Francais cello, crafted in 1912.
     </Text>
     
     </div>
+    <div className="directions2">
+        <Text className="largerDirections">Check out some of Grace's arrangements!</Text> 
+    </div>
+    <div className="inventory"> 
+        <iframe width="1000" height="450" src="https://www.youtube.com/embed/videoseries?si=BorSbxk7TzHu3_V2&amp;list=PLlY41fxYRXxjpjYHw2WnR3o5a8cSM6yIO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <div className="bottomSection">
         <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
             <IconBrandInstagram />
