@@ -66,6 +66,22 @@
     max-width: 50%;
 }
 
+@media only screen and (max-width:1050px) {
+    .aboutSection0 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .imageBox {
+      max-width: 100%;
+    }
+  
+    .aboutText {
+      max-width: 90%;
+      padding: 5%
+    }
+  }
+  
+
 .teachingSection {
     background-image: url("../images/teaching.jpg");
     background-size: cover;
