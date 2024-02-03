@@ -20,7 +20,7 @@ export const JuniperPage = () => {
             <Image className="aboutJunPic" src={juniper11} />
         </div>
         <div className="videoBackground">  
-            <iframe width="1000" height="450" src="https://www.youtube.com/embed/videoseries?si=rUuA1lranIXG4lLJ&amp;list=PLRH7TZXLLKdvgOqGOdcNdDlf3frxO21Od" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className="iframeJun" width="1000" height="450" src="https://www.youtube.com/embed/videoseries?si=rUuA1lranIXG4lLJ&amp;list=PLRH7TZXLLKdvgOqGOdcNdDlf3frxO21Od" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <ScrollArea className="scrollArea">
         <div className="scrollVids">
