@@ -3,7 +3,7 @@ import { Text, Menu, Button, Image } from "@mantine/core"
 import { Link, useNavigate } from 'react-router-dom'
 import { IconMenu, IconPhone, IconMail, IconMenu2 } from '@tabler/icons-react';
 import ButtonMailto from '../pages/Mailto';
-import logoPic from "../images/GracieParce3.png"
+import logoPic from "../images/GracieParce4.png"
 
 export const NavBar = () => {
     const navigate = useNavigate()
@@ -77,7 +77,7 @@ export const NavBar = () => {
                                 navigate("/forget");
                             }}
                         >
-                            Forget Me Knots By Gracie
+                            Forget Me Knots
                         </Menu.Item>
                     </Menu.Dropdown>
                 </Menu>
