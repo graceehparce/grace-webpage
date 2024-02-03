@@ -26,7 +26,7 @@ import { useNavigate } from "react-router-dom"
 import dog1 from "../images/dog1.jpeg"
 import dog2 from "../images/dog2.jpeg"
 import dog3 from "../images/dog3.jpeg"
-import { IconBrandInstagram } from '@tabler/icons-react';
+import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 import ButtonMailto from "./Mailto"
 
 
@@ -58,7 +58,7 @@ export const ForgetPage = () => {
                 </Text>
             </div>
         </div>
-        <div className="inventory">
+        <div className="inventory2">
             <Image src={dog1} className="dogPic"></Image>
             <Image src={dog2} className="dogPic"></Image>
             <Image src={dog3} className="dogPic"></Image>
@@ -102,17 +102,25 @@ export const ForgetPage = () => {
                     color="dark"
                     radius={20}
                    >
-                    <ButtonMailto class="emailButton" label="Contact Us" mailto="mailto:graceehparce@gmail.com" />
+                    <ButtonMailto class="emailButton" label="Contact" mailto="mailto:graceehparce@gmail.com" />
                 </Button>
             </div>
-            <Image className="endImage" src={mac5} height={500}></Image>
+            <Image className="endImage" src={mac5}></Image>
         </div>
         <div className="bottomSection">
-            <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
-                <IconBrandInstagram />
-            </a>
-            <Text color="white">Created by Gracie Parce</Text>
+        <div className="iconBox">   
+        <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
+            <IconBrandInstagram />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
+            <IconBrandYoutube />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.facebook.com/grace.hartman.54/">
+            <IconBrandFacebook />
+        </a>
         </div>
+        <Text color="white">Created by Gracie Parce</Text>
+    </div>
     </div >
     )
 }

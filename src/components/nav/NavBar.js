@@ -1,8 +1,9 @@
 import './NavBar.css'
-import { Text, Menu, Button, } from "@mantine/core"
+import { Text, Menu, Button, Image } from "@mantine/core"
 import { Link, useNavigate } from 'react-router-dom'
 import { IconMenu, IconPhone, IconMail, IconMenu2 } from '@tabler/icons-react';
 import ButtonMailto from '../pages/Mailto';
+import logoPic from "../images/GracieParce3.png"
 
 export const NavBar = () => {
     const navigate = useNavigate()
@@ -10,9 +11,15 @@ export const NavBar = () => {
         <nav className="navbar">
             <section className='titleSection'>
                 <Link className="titleLink" to="">
-                    <Text className='name'>Grace Parce</Text>
+                <Image
+                    className='logoImage'
+                    radius="md"
+                    w="auto"
+                    fit="contain"
+                    src={logoPic}
+                    />
                 </Link>
-                <section className='contact'>
+                {/* <section className='contact'>
                     <div className='withIcon'>
                         <IconMail stroke-width="1" size={16}/>
                         <ButtonMailto class="emailButton2" label="graceehparce@gmail.com" mailto="mailto:graceehparce@gmail.com" />
@@ -21,7 +28,7 @@ export const NavBar = () => {
                         <IconPhone stroke-width="1" size={16}/>
                         <Text className='phone'>(919)434-1278</Text>
                     </div>
-                </section>
+                </section> */}
             </section>
             <section className="navDropDown">
                 <Menu

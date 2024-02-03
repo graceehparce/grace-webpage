@@ -2,7 +2,7 @@ import { Image, Text, Button } from "@mantine/core"
 import ncms1 from "../images/ncms1.jpg"
 import "./teaching.css"
 import ButtonMailto from "./Mailto"
-import { IconBrandInstagram } from '@tabler/icons-react';
+import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 
 
 
@@ -28,11 +28,19 @@ export const TeachingPage = () => {
         
         </div>
         <div className="bottomSection">
-            <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
-                <IconBrandInstagram />
-            </a>
-            <Text color="white">Created by Gracie Parce</Text>
+        <div className="iconBox">   
+        <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
+            <IconBrandInstagram />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
+            <IconBrandYoutube />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.facebook.com/grace.hartman.54/">
+            <IconBrandFacebook />
+        </a>
         </div>
+        <Text color="white">Created by Gracie Parce</Text>
+    </div>
     </div >
     )
 }

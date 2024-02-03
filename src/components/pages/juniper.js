@@ -2,8 +2,8 @@ import "./juniper.css"
 import { Text, Image, Button } from "@mantine/core"
 import juniper11 from "../images/juniper11.jpeg"
 import juniper1 from "../images/juniper1.jpeg"
-import { IconBrandInstagram } from '@tabler/icons-react'
 import ButtonMailto from "./Mailto"
+import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 
 
 
@@ -40,9 +40,17 @@ export const JuniperPage = () => {
        
         </div>
         <div className="bottomSection">
+        <div className="iconBox">   
         <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
             <IconBrandInstagram />
         </a>
+        <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
+            <IconBrandYoutube />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.facebook.com/grace.hartman.54/">
+            <IconBrandFacebook />
+        </a>
+        </div>
         <Text color="white">Created by Gracie Parce</Text>
     </div>
     </div >

@@ -79,6 +79,8 @@
     margin-left: 10px;
 }
 
+
+
 .titleLink {
     text-decoration: none;
     color: black;
@@ -86,6 +88,7 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: left;
+    max-height: 100px;
 }
 
 .whiteLine {
@@ -97,8 +100,11 @@
 }
 
 .titleSection {
-    margin-left: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    max-height: 100px;
 }
 
 .withIcon {
@@ -126,7 +132,7 @@
     padding-left: 10px;
 }
 
-.mantine-1pvv4p5 {
+.mantine-1g6tz01 {
     background-color: transparent !important;
     color: black !important; 
 }

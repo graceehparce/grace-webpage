@@ -2,6 +2,10 @@
     max-width: fit-content;
 }
 
+.juniperWhole {
+    margin-top: 20px;
+}
+
 .juniperHome2 {
     background-image: url("../images/juniper10.jpeg");
     background-size: cover;
@@ -22,6 +26,8 @@
     font-weight: 900;
     margin-top: 200px;
     margin-bottom: 200px;
+    font-family: 'Aboreto', system-ui;
+
 }
 
 .aboutJunBox {
@@ -128,5 +134,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin: 10px;
 }
 

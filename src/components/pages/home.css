@@ -57,6 +57,7 @@
     font-weight: 900;
     padding: 10px;
     text-align: center;
+    font-family: 'Aboreto', system-ui;
 }
 
 .imageBox {
@@ -108,6 +109,8 @@
     background: rgba(6, 6, 6, 0.1);
     margin: 10px;
     border-radius: 10px;
+    font-family: 'Figtree', sans-serif;
+
 }
 
 .teachingQuote2 {
@@ -117,6 +120,8 @@
     background: rgba(6, 6, 6, 0.3);
     margin: 10px;
     border-radius: 10px;
+    font-family: 'Figtree', sans-serif;
+
 }
 
 .teachingQuote3 {
@@ -126,6 +131,8 @@
     background: rgba(6, 6, 6, 0.1);
     margin: 10px;
     border-radius: 10px;
+    font-family: 'Figtree', sans-serif;
+
 }
 
 .teachingQuote4 {
@@ -136,6 +143,8 @@
     margin: 10px;
     margin-bottom: 30px;
     border-radius: 10px;
+    font-family: 'Figtree', sans-serif;
+
 }
 
 .quotes {
@@ -180,6 +189,7 @@
     margin-top: 30px;
     text-decoration: none;
     color: black;
+    font-family: 'Aboreto', system-ui;
 }
 
 .juniperTitleLink {
@@ -220,5 +230,23 @@
 }
 
 .instaIcon {
-    color: white;
+    color: black;
+    padding: 6px;
+    margin: 8px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.instaIcon:hover {
+    background-color: gray;
+}
+
+.iconBox {
+    display: flex;
 }

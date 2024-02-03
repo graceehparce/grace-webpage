@@ -18,7 +18,7 @@ import juniper13 from "../images/juniper13.jpeg"
 import juniper14 from "../images/juniper14.jpeg"
 import juniper15 from "../images/juniper15.jpeg"
 import macLogo from "../images/macLogo.jpg"
-import { IconBrandInstagram } from '@tabler/icons-react';
+import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 
 
 
@@ -112,11 +112,19 @@ export const HomePage = () => {
             </div>
         </div>
         <div className="bottomSection">
-            <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
-                <IconBrandInstagram />
-            </a>
-            <Text color="white">Created by Gracie Parce</Text>
+        <div className="iconBox">   
+        <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
+            <IconBrandInstagram />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
+            <IconBrandYoutube />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.facebook.com/grace.hartman.54/">
+            <IconBrandFacebook />
+        </a>
         </div>
+        <Text color="white">Created by Gracie Parce</Text>
+    </div>
     </section >
     )
 }

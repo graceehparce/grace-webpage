@@ -1,8 +1,8 @@
 import "./about.css"
-import { Image, Text, Button } from "@mantine/core"
+import { Image, Text, Button, ScrollArea } from "@mantine/core"
 import aboutPic from "../images/aboutPic2.jpg"
 import ButtonMailto from "./Mailto"
-import { IconBrandInstagram } from '@tabler/icons-react';
+import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 
 export const AboutPage = () => {
 
@@ -56,15 +56,34 @@ Francais cello, crafted in 1912.
     
     </div>
     <div className="directions2">
-        <Text className="largerDirections">Check out some of Grace's arrangements!</Text> 
+        <Text className="largerDirections">Follow Me on 
+        </Text>
+        <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
+            <IconBrandYoutube />
+        </a> 
     </div>
-    <div className="inventory"> 
-        <iframe width="1000" height="450" src="https://www.youtube.com/embed/videoseries?si=BorSbxk7TzHu3_V2&amp;list=PLlY41fxYRXxjpjYHw2WnR3o5a8cSM6yIO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <ScrollArea className="scrollArea">
+        <div className="scrollVids">
+            <iframe className="vid"  src="https://www.youtube.com/embed/UTMVMRNALOI?si=TwMgZq2GFUFVagF3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe className="vid"  src="https://www.youtube.com/embed/bHMfjOTmETU?si=VLDyyHumTSFDti1q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                   
+            <iframe className="vid"  src="https://www.youtube.com/embed/nfaQ1uxwkBU?si=6RhL0c9RNRFlK9CS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                   
+            <iframe className="vid"  src="https://www.youtube.com/embed/Q5Um2adffN0?si=zHxNC4ZZubfU8o3X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    
+            <iframe className="vid"  src="https://www.youtube.com/embed/Hfi4Ga1iBKU?si=lYtjKvf41yDmYsYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </ScrollArea>
+    
     <div className="bottomSection">
+        <div className="iconBox">   
         <a className="instaIcon" target="_blank" href="https://www.instagram.com/graceehparce/">
             <IconBrandInstagram />
         </a>
+        <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
+            <IconBrandYoutube />
+        </a>
+        <a className="instaIcon" target="_blank" href="https://www.facebook.com/grace.hartman.54/">
+            <IconBrandFacebook />
+        </a>
+        </div>
         <Text color="white">Created by Gracie Parce</Text>
     </div>
 </div >
