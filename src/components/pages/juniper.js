@@ -1,5 +1,5 @@
 import "./juniper.css"
-import { Text, Image, Button } from "@mantine/core"
+import { Text, Image, Button, ScrollArea } from "@mantine/core"
 import juniper11 from "../images/juniper11.jpeg"
 import juniper1 from "../images/juniper1.jpeg"
 import ButtonMailto from "./Mailto"
@@ -22,6 +22,18 @@ export const JuniperPage = () => {
         <div className="videoBackground">  
             <iframe width="1000" height="450" src="https://www.youtube.com/embed/videoseries?si=rUuA1lranIXG4lLJ&amp;list=PLRH7TZXLLKdvgOqGOdcNdDlf3frxO21Od" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <ScrollArea className="scrollArea">
+        <div className="scrollVids">
+        <iframe className="vid" src="https://www.youtube.com/embed/3SryOiV4ieg?si=bqYYGrfvM0rSl6gC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/bH-9PDwa-8w?si=ryxPT1CzKoNyzYbn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/vLO8yKSOtsU?si=uFqpn5OajGRDfgBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/mdkPMW9J-bs?si=8mZe2oKepCYI2Hic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/mdkPMW9J-bs?si=qJuynULC62A-Y9vG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/0zbue1sWufg?si=6N8hMV0B32GgwZem" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/9doA_ppWWto?si=Ae93V7Ej-6FFY4pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/5wBliX0DHao?si=vCRCD9mmJjNmhdOB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </ScrollArea>
         <div className="lastJunBox">
         <div className="bottomJunBox">
             <Image className="aboutJunPic" src={juniper1} />
