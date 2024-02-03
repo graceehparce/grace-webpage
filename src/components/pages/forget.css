@@ -124,22 +124,22 @@
 }
 
 .endText {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .endTextQ {
-    font-size: larger;
+    font-size: large;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Aboreto', system-ui;
 
 }
 
 .endTextA {
-    font-size: medium;
+    font-size: small;
     font-weight: 400;
 }
 
@@ -152,7 +152,7 @@
 }
 
 .endButton {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width:500px) {
