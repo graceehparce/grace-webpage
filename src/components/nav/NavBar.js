@@ -80,6 +80,13 @@ export const NavBar = () => {
                         >
                             Forget Me Knots
                         </Menu.Item>
+                        <Menu.Item
+                            onClick={() => {
+                                navigate("/media");
+                            }}
+                        >
+                            Media
+                        </Menu.Item>
                     </Menu.Dropdown>
                 </Menu>
             </section>
