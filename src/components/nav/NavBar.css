@@ -15,7 +15,14 @@
       );
 }
 
+.logoTitle {
+    font-family: 'Italiana', sans-serif;
+    font-size: 70px;
+}
 
+.cellist {
+    font-size: 30px;
+}
 
 .navbar__item {
     flex-basis: 20%;
@@ -135,4 +142,10 @@
 .mantine-1g6tz01 {
     background-color: transparent !important;
     color: black !important; 
+}
+
+@media only screen and (max-width:600px) {
+    .logoTitle {
+        font-size: 40px;
+    }
 }

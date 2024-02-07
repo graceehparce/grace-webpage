@@ -11,13 +11,14 @@ export const NavBar = () => {
         <nav className="navbar">
             <section className='titleSection'>
                 <Link className="titleLink" to="">
-                <Image
+                    <Text className='logoTitle'>GRACE PARCE</Text>&nbsp;<Text className='cellist'></Text>
+                {/* <Image
                     className='logoImage'
                     radius="md"
                     w="auto"
                     fit="contain"
                     src={logoPic}
-                    />
+                    /> */}
                 </Link>
                 {/* <section className='contact'>
                     <div className='withIcon'>
