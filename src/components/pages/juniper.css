@@ -41,9 +41,8 @@
 }
 
 .lastJunBox {
-    padding: 20px;
+    padding: 30px;
     background:  rgba(6, 6, 6, 0.3);;
-    margin-top: 10px;
     border-top: 5px solid black;
     display: flex;
     flex-direction: column;
@@ -84,6 +83,16 @@
     }
   }
   
+  .directions3 {
+    border-bottom: 5px solid black;
+    background: rgba(6, 6, 6, 0.4);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 
@@ -106,7 +115,7 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-top: 50px;
-
+        background-position: 30%;
     }
 }
 
@@ -148,10 +157,10 @@ a {
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 10px;
     padding-bottom: 15px;
-    margin: 10px;
 }
+
+
 
 .vid {
     margin-left: 10px;
@@ -164,14 +173,14 @@ a {
   }
   
   
-  .scrollVids {
+  .scrollVids1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    border-top: 5px solid black;
+    margin-top: 3px;
   }
   
-  .scrollArea {
+  .scrollArea1 {
     height: 360px
   }
   
@@ -182,13 +191,18 @@ a {
       margin-top: 10px;
       margin-bottom: 10px;
       border-radius: 10px;
-      width: 300px;
-      height: 150px;
+      width: 320px;
+      height: 190px;
     }
   
-    .scrollArea {
-      height: 175px
+    .scrollArea1 {
+      height: 215px;
     }
   }
-  
 
+  @media only screen and (min-width:1040px) {
+    .bottomJunBox {
+        justify-content: space-evenly;
+    }
+
+  }

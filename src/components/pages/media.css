@@ -1,0 +1,43 @@
+.mediaBanner {
+  background-image: url("../images/juniper8.jpeg");
+  background-size: cover;
+  background-position: 90% 10%;
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.directions4 {
+  background: rgba(6, 6, 6, 0.4);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width:700px) {
+  .mediaBanner {
+    background-position: 42%;
+  }
+}
+
+@media only screen and (max-width:1230px) {
+  .vid {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 320px;
+    height: 190px;
+  }
+
+  .scrollArea {
+    height: 215px;
+  }
+}

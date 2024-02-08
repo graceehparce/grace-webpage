@@ -22,15 +22,15 @@ export const JuniperPage = () => {
         <div className="videoBackground">  
             <iframe className="iframeJun" width="1000" height="450" src="https://www.youtube.com/embed/videoseries?si=rUuA1lranIXG4lLJ&amp;list=PLRH7TZXLLKdvgOqGOdcNdDlf3frxO21Od" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div className="directions2">
+        <div className="directions3">
         <Text className="largerDirections">Check us out on  
         </Text>
         <a className="instaIcon" target="_blank" href="https://www.youtube.com/playlist?list=PLRH7TZXLLKdvgOqGOdcNdDlf3frxO21Od">
             <IconBrandYoutube />
         </a> 
     </div>
-        <ScrollArea className="scrollArea">
-        <div className="scrollVids">
+        <ScrollArea className="scrollArea1">
+        <div className="scrollVids1">
         <iframe className="vid" src="https://www.youtube.com/embed/3SryOiV4ieg?si=bqYYGrfvM0rSl6gC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className="vid" src="https://www.youtube.com/embed/bH-9PDwa-8w?si=ryxPT1CzKoNyzYbn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className="vid" src="https://www.youtube.com/embed/vLO8yKSOtsU?si=uFqpn5OajGRDfgBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

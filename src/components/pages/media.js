@@ -6,8 +6,9 @@ import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler
 
 export const MediaPage = () => {
 
-    return (<div className="wholePage">
-    <div className="directions2">
+    return (<div className="wholePage1">
+      <div className="mediaBanner"></div>
+    <div className="directions4">
         <Text className="largerDirections">Follow Me on 
         </Text>
         <a className="instaIcon" target="_blank" href="https://www.youtube.com/@GracieParce">
@@ -23,7 +24,7 @@ export const MediaPage = () => {
             <iframe className="vid"  src="https://www.youtube.com/embed/Hfi4Ga1iBKU?si=lYtjKvf41yDmYsYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </ScrollArea>
-    <div className="directions2">
+    <div className="directions4">
         <Text className="largerDirections">Juniper Duo on 
         </Text>
         <a className="instaIcon" target="_blank" href="https://www.youtube.com/playlist?list=PLRH7TZXLLKdvgOqGOdcNdDlf3frxO21Od">
@@ -42,8 +43,8 @@ export const MediaPage = () => {
         <iframe className="vid" src="https://www.youtube.com/embed/5wBliX0DHao?si=vCRCD9mmJjNmhdOB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </ScrollArea>
-    <div className="directions2">
-        <Text className="largerDirections">Misc Media 
+    <div className="directions4">
+        <Text className="largerDirections">Miscellaneous Projects
         </Text>
     </div>
     <ScrollArea className="scrollArea">
@@ -53,6 +54,7 @@ export const MediaPage = () => {
         <iframe className="vid" src="https://www.youtube.com/embed/0jgyktsbl28?si=G7Y2alALur_LRoBu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
         <iframe className="vid" src="https://www.youtube.com/embed/0gNAfKRteFE?si=CeDmX9bxz-3_wwpP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
         <iframe className="vid" src="https://www.youtube.com/embed/NrQSGggiAxM?si=b_swEmxrFnT9miOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className="vid" src="https://www.youtube.com/embed/tBqydpcIeuI?si=cBNWrHZWMo83ImQL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className="vid" src="https://www.youtube.com/embed/wtQBQDaE4Pg?si=QjiEFrRA0M3BpB7d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className="vid" src="https://www.youtube.com/embed/SWgAlZjf760?si=-NlSSroI5bzIyeZF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
