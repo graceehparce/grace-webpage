@@ -1,8 +1,17 @@
+.wholePage3 {
+  position: absolute;
+    top: 0;
+    max-width: 100%;
+    background-position: 40%;
+    background-color: #825344;
+}
+
 .mediaBanner {
   background-image: url("../images/juniper8.jpeg");
   background-size: cover;
-  background-position: 90% 10%;
-  padding-bottom: 300px;
+  background-position: 40% 0%;
+  padding-bottom: 200px;
+  padding-top: 400px;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -11,7 +20,7 @@
 }
 
 .directions4 {
-  background: rgba(6, 6, 6, 0.4);
+  background: #bd8d7d;
   padding: 10px;
   text-align: center;
   display: flex;

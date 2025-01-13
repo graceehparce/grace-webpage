@@ -6,7 +6,7 @@ import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler
 
 export const AboutPage = () => {
 
-    return (<div className="wholePage">
+    return (<div className="wholePage1">
     <div className="teachBox">
     <Image src={aboutPic} className="ncmsPic">
     </Image>

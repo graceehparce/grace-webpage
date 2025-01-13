@@ -6,7 +6,7 @@ import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler
 
 export const MediaPage = () => {
 
-    return (<div className="wholePage1">
+    return (<div className="wholePage3">
       <div className="mediaBanner"></div>
     <div className="directions4">
         <Text className="largerDirections">Follow Me on 

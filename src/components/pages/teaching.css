@@ -2,6 +2,14 @@
   max-width: 45%;
 }
 
+.wholePage2 {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  background-position: 40%;
+  background-color: #825344;
+  padding-top: 100px;
+}
 
 .teachBox {
   display: flex;
@@ -9,9 +17,8 @@
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 30px;
   margin-bottom: 50px;
-  background-color: rgba(6, 6, 6, 0.3);;
+  background-color: #fcefd9;;
   
 }
 
@@ -22,6 +29,11 @@
   justify-content: center;
   max-width: 45%;
   padding: 5%;
+}
+
+.mantine-bmqyhy {
+  background: #bd8d7d;
+
 }
 
 

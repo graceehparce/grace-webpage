@@ -1,9 +1,9 @@
 .macBanner {
     background-image: url("../images/mac4.jpeg");
     background-size: cover;
-    background-position: 0%;
-    padding-top: 75px;
-    padding-bottom: 300px;
+    background-position: 50%;
+    padding-top: 100px;
+    padding-bottom: 400px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 .titleBanner {
     font-size: x-large;
     font-weight: 900;
-    background: rgba(6, 6, 6, 0.3);
+    background: #bd8d7d;
     border-top: 5px solid black;
     color: black;
     text-align: center;
@@ -31,8 +31,11 @@
 }
 
 .wholePage {
-    margin-top: 20px;
-}
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    background-position: 40%;
+    background-color: #825344;}
 
 .aboutBox {
     display: flex;
@@ -78,7 +81,7 @@
 }
 
 .directions {
-    background: rgba(6, 6, 6, 0.4);
+    background: #bd8d7d;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -117,7 +120,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background: rgba(6, 6, 6, 0.4);
+    background: #bd8d7d;
     margin-top: 20px;
     text-align: center;
     border-top: 5px solid black;

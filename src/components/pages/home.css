@@ -1,7 +1,15 @@
 
 
+.homeWhole {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    background-position: 40%;
+    background-color: #fcefd9;
+  }
+
 .homeBackground {
-    background-image: url("../images/noBackground2.JPG");
+    background-image: url("../images/NCMS.jpg");
     background-size: cover;
     background-position: 0%;
     padding-top: 100px;
@@ -16,12 +24,14 @@
 
 @media only screen and (max-width:1000px) {
     .homeBackground {
-        background-position: 80%;
+        background-position: 65%;
+        padding-top: 300px;
+        padding-bottom: 150px;
     }
 }
 
 .nameTitle {
-    color: white;
+    color: #fcefd9;
     padding: 10px;
     font-size: x-large;
     font-weight: 700;
@@ -46,7 +56,7 @@
 
 .aboutText {
     font-size: medium;
-    max-width: 42%;
+    max-width: 47%;
     padding: 4%;
     text-align: center;
 
@@ -64,21 +74,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 45%;
+    height:auto;
 }
 
-@media only screen and (max-width:1050px) {
+@media only screen and (max-width:750px) {
     .aboutSection0 {
         flex-wrap: wrap;
         text-align: center;
     }
     .imageBox {
-      max-width: 100%;
+      padding-top: 30px;
     }
-  
     .aboutText {
       max-width: 90%;
-      padding: 5%
+      padding: 5%;
+      font-size:small;
+    } 
+  }
+
+  @media only screen and (max-width:930px) {
+    .aboutText {
+      font-size:small;
     }
   }
   
@@ -93,7 +110,8 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    border-top: 20px solid black;
+    border-top: 20px solid #825344;
+    border-bottom: 7px solid black;
 }
 
 @media only screen and (max-width:1000px) {
@@ -106,7 +124,7 @@
     text-align: center;
     width: 300px;
     padding: 20px;
-    background: rgba(6, 6, 6, 0.1);
+    background: rgba(189, 141, 125, 0.3);
     margin: 10px;
     border-radius: 10px;
     font-family: 'Figtree', sans-serif;
@@ -117,7 +135,7 @@
     text-align: center;
     width: 300px;
     padding: 20px;
-    background: rgba(6, 6, 6, 0.3);
+    background: rgba(189, 141, 125, 0.7);
     margin: 10px;
     border-radius: 10px;
     font-family: 'Figtree', sans-serif;
@@ -128,7 +146,7 @@
     text-align: center;
     width: 300px;
     padding: 20px;
-    background: rgba(6, 6, 6, 0.1);
+    background: rgba(189, 141, 125, 0.3);
     margin: 10px;
     border-radius: 10px;
     font-family: 'Figtree', sans-serif;
@@ -139,7 +157,7 @@
     text-align: center;
     width: 300px;
     padding: 20px;
-    background: rgba(6, 6, 6, 0.3);
+    background: rgba(189, 141, 125, 0.7);
     margin: 10px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -162,7 +180,7 @@
 .aboutCard {
     margin-top: 10px;
     margin-bottom: 10px;
-    background: rgba(6, 6, 6, 0.3);
+    background: #825344;
 }
 
 .images {
@@ -182,7 +200,7 @@
 .juniperTitle {
     font-size: xx-large;
     font-weight: 900;
-    background: rgba(6, 6, 6, 0.3);
+    background: #825344;
     padding: 10px;
     text-align: center;
     border-top: 10px solid black;
@@ -206,7 +224,7 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    border-top: 20px solid black;
+    border-top: 20px solid #825344;
 }
 
 .logo {
@@ -221,7 +239,7 @@
 }
 
 .bottomSection {
-    background-color: black;
+    background-color: #825344;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -235,7 +253,7 @@
     margin: 8px;
     text-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #fcefd9;
     border-radius: 50%;
     display: flex;
     flex-direction: row;
@@ -244,9 +262,22 @@
     width: fit-content;
 }
 .instaIcon:hover {
-    background-color: gray;
+    background-color: #825344;
 }
 
 .iconBox {
     display: flex;
+}
+
+.mantine-dv0i8e {
+    background-color: #fcefd9;
+}
+
+.mantine-1e3vyn {
+    color:#fcefd9;
+}
+
+.mantine-b4c3o {
+    background-color: #825344;
+   
 }

@@ -1,7 +1,7 @@
 import "./home.css"
 import { Text, Menu, Button, Image, Card, ScrollArea } from "@mantine/core"
 import { Link, useNavigate } from "react-router-dom"
-import aboutImg from "../images/about.jpeg"
+import aboutImg from "../images/homeAbout2.jpeg"
 import juniper1 from "../images/juniper1.jpeg"
 import juniper2 from "../images/juniper2.jpeg"
 import juniper3 from "../images/juniper3.jpeg"
